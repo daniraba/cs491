@@ -6,6 +6,9 @@ export default function NavBar() {
       <div className="container mx-auto flex items-center justify-between p-4">
         <div className="text-xl font-semibold">ReactRouteHobbies</div>
         <div className="space-x-4">
+          <Link to="/" className="text-gray-700 hover:text-blue-600">
+            Home
+          </Link>
           <Link to="/hobbies" className="text-gray-700 hover:text-blue-600">
             Hobbies
           </Link>

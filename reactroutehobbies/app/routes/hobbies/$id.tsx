@@ -30,7 +30,7 @@ export default function HobbyDetail() {
     <main className="container mx-auto p-4">
       <h1 className="text-3xl">{hobby.title}</h1>
       <img src={hobby.img} alt={hobby.title} className="w-full max-w-3xl mt-4 rounded" />
-      <p className="mt-4">{hobby.details}</p>
+      <p className="mt-4">{hobby.desc}</p>
       <Link to="/hobbies" className="text-blue-600 underline mt-4 inline-block">
         Back
       </Link>
